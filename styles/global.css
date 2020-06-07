@@ -19,6 +19,11 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-weight: 400;
+    font-size: 150%;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -26,4 +31,13 @@ a:hover {
 img {
     max-width: 100%;
     display: block;
+}
+
+#__next-prerender-indicator {
+    display: none;
+}
+
+.wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
 }

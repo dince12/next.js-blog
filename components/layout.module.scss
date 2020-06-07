@@ -1,0 +1,82 @@
+/* component specific css to be imported */
+
+
+.container {
+    padding: 0 1rem;
+    max-width: 52rem;
+
+    background: white;
+    margin: 3rem auto 6rem;
+}
+
+.header {
+    padding: 3%;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerFont {
+    font-variant: all-petite-caps;
+}
+
+.pText {
+    color: #9c9c9c;
+    font-size: 2vh;
+    font-variant: all-petite-caps;
+    font-feature-settings: "pcap", "c2pc";
+}
+
+.splitter {
+    width: 100%;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.paddingTop {
+    padding-top: 5%;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .spaceBetween {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coolButton {
+        margin-bottom: 5%;
+    }
+}
+
+.headerImage {
+    width: 6rem;
+    height: 6rem;
+}
+
+.headerHomeImage {
+    width: 8rem;
+    height: 8rem;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.bannerImg {
+
+}
+
+.hero {
+    width: 100%;
+    height: 24rem;
+}
+
+.navigation {
+    height: 4rem;
+}
