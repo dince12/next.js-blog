@@ -6,9 +6,9 @@ export default function NavigationBar({ props }) {
     return (
         <>
             <div className={navStyles.navWrapper}>
-                <h2 className={navStyles.logo}>
-                    Industrial Space
-                </h2>
+                <span className={navStyles.logo}>
+                    Place-Holder
+                </span>
 
             </div>
         </>

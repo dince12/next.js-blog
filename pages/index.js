@@ -4,8 +4,6 @@ import {getSortedPostsData} from '../lib/posts';
 import utilStyles from '../styles/utils.module.css';
 import styles from "../components/layout.module.scss";
 import Layout, {siteTitle} from '../components/layout';
-import NavigationBar from "../components/navigationBar";
-
 
 // Load data from file system, represents async, fetching ect..
 // This is static and done at build time, not recalled often.

@@ -6,7 +6,23 @@
     max-width: 52rem;
 
     background: white;
-    margin: 3rem auto 6rem;
+    margin: 3rem auto 0;
+}
+
+.containerLow {
+    padding: 0 1rem;
+    max-width: 52rem;
+
+    background: white;
+    margin: 0 auto 0;
+}
+
+.vmt {
+    margin-top: 10vh;
+}
+
+.mb {
+    margin-bottom: 3rem;
 }
 
 .header {
@@ -26,10 +42,29 @@
     font-variant: all-petite-caps;
 }
 
+.commentWrapper {
+    display: flex;
+    color: #c7c7c7;
+
+    justify-content: center;
+
+    .commentSection {
+        width: 100%;
+        display: flex;
+        padding: 0 1rem;
+
+        max-width: 52rem;
+        background: white;
+
+        justify-content: center;
+        border-bottom: 1px solid #c7c7c7;
+    }
+}
+
+
+
 .pText {
-    color: #9c9c9c;
     font-size: 2vh;
-    font-variant: all-petite-caps;
     font-feature-settings: "pcap", "c2pc";
 }
 

@@ -1,12 +1,21 @@
 .navWrapper {
+  top: 0;
   width: 100%;
-  height: 10vh;
-  background: #e1e1e1;
+
+  z-index: 10;
+  height: 5vh;
+
+  display: flex;
+  position: fixed;
+
   padding-left: 5%;
   overflow: hidden;
-  padding-right: 5%;
-}
 
-.logo {
-  height: 100%;
+  background: white;
+  padding-right: 5%;
+
+  flex-direction: column;
+  justify-content: center;
+
+  border-bottom: 1px solid #c7c7c7;
 }

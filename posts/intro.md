@@ -1,7 +1,7 @@
 ---
 title: 'The industrial space revolution. How do you stand to gain?'
-sol: '52,054'
 date: '2020-06-06'
+author: '"Undisclosed"'
 ---
 
 # The industrial space revolution. How do you stand to gain?
